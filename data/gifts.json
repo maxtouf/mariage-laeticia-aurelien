@@ -1,0 +1,6 @@
+[
+  { "name": "Machine à café design", "bought": false, "link": "https://www.amazon.fr/Capsules-Reconnaissance-d%C3%89gouttement-LM9012-60/dp/B09B166BMD/ref=sr_1_6?__mk_fr_FR=%C3%85M%C3%85%C5%BD%C3%95%C3%91&crid=3QTL6K2301HHU&sprefix=machine%2B%C3%A0%2Bcaf%C3%A9%2Caps%2C129&sr=8-6&th=1" },
+  { "name": "Participation lune de miel", "bought": false, "link": "https://www.example.com/lune-de-miel" },
+  { "name": "Service de vaisselle artisanal", "bought": true, "link": "https://www.example.com/vaisselle" },
+  { "name": "Don pour une association", "bought": false, "link": "https://www.example.com/association" }
+] 

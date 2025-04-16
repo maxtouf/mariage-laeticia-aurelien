@@ -1,0 +1,20 @@
+<svg width="400" height="80" viewBox="0 0 400 80" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <style>
+    .calli {
+      font-family: 'Dancing Script', 'Brush Script MT', cursive;
+      font-size: 48px;
+      fill: #e7bfa7;
+      font-weight: 700;
+      letter-spacing: 2px;
+    }
+    .et {
+      font-family: 'Dancing Script', 'Brush Script MT', cursive;
+      font-size: 36px;
+      fill: #b7c9a8;
+      font-weight: 400;
+    }
+  </style>
+  <text x="10" y="55" class="calli">Laeticia</text>
+  <text x="170" y="55" class="et">et</text>
+  <text x="210" y="55" class="calli">Aurélien</text>
+</svg> 

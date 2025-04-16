@@ -1,0 +1,8 @@
+[
+
+  { "category": "engagement", "src": "assets/images/engagement2.jpg", "alt": "Demande en mariage" },
+  { "category": "preparatifs", "src": "assets/images/prep1.jpg", "alt": "Préparatifs de la mariée" },
+  { "category": "preparatifs", "src": "assets/images/prep2.jpg", "alt": "Préparatifs du marié" },
+  { "category": "cérémonie", "src": "assets/images/ceremonie1.png", "alt": "Cérémonie à l'église" },
+  { "category": "soirée", "src": "assets/images/soiree1.jpg", "alt": "Soirée dansante" }
+] 

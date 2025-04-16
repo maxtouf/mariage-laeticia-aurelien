@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Laeticia et Aurélien - Mariage</title>
+  <link rel="stylesheet" href="css/style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&family=Montserrat:wght@400;600&display=swap" rel="stylesheet">
+</head>
+<body>
+  <!-- Navigation -->
+  <nav class="navbar">
+    <div class="logo">Laeticia et Aurélien</div>
+    <ul class="nav-links">
+      <li><a href="#home" data-i18n="nav_home">Accueil</a></li>
+      <li><a href="#story" data-i18n="nav_story">Notre histoire</a></li>
+      <li><a href="#infos" data-i18n="nav_infos">Infos pratiques</a></li>
+      <li><a href="#rsvp" data-i18n="nav_rsvp">RSVP</a></li>
+      <li><a href="#gallery" data-i18n="nav_gallery">Galerie</a></li>
+      <li><a href="#gifts" data-i18n="nav_gifts">Liste de mariage</a></li>
+      <li><a href="#guestbook" data-i18n="nav_guestbook">Livre d'or</a></li>
+    </ul>
+    <div class="theme-switch">
+      <button id="theme-toggle" aria-label="Changer le mode">🌙</button>
+    </div>
+    <div class="hamburger">
+      <span></span><span></span><span></span>
+    </div>
+  </nav>
+  <div class="scroll-progress"></div>
+
+  <!-- Accueil -->
+  <header id="home" class="hero-section">
+    <div class="hero-bg-decor"></div>
+    <div class="hero-content">
+      <img src="assets/images/couple.jpg" alt="Laeticia et Aurélien" class="hero-photo" loading="lazy">
+      <h1 class="hero-title">Laeticia et Aurélien</h1>
+      <p class="hero-date" data-i18n="hero_date">Se marient le 15 juin 2025</p>
+      <div id="countdown" class="countdown"></div>
+    </div>
+    <div class="scroll-indicator"></div>
+  </header>
+  <div class="section-separator floral"></div>
+
+  <!-- Notre histoire -->
+  <section id="story" class="section story-section">
+    <h2 data-i18n="story_title">Notre histoire</h2>
+    <div class="timeline" id="timeline"></div>
+  </section>
+  <div class="section-separator geo"></div>
+
+  <!-- Infos pratiques -->
+  <section id="infos" class="section infos-section">
+    <h2 data-i18n="infos_title">Infos pratiques</h2>
+    <div class="infos-grid">
+      <div class="info-block">
+        <h3 data-i18n="infos_venue">Lieux</h3>
+        <div class="map" style="height: 250px; border-radius: 12px; overflow: hidden;">
+          <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2622.073964073964!2d1.040443415674019!3d49.35905307934013!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47e11e2acef446bc%3A0x3f61b0a47e11e2ac!2s%C3%89glise%20catholique%20Saint-Martin%20%C3%A0%20Grand-Couronne!5e0!3m2!1sfr!2sfr!4v1715440000000!5m2!1sfr!2sfr"
+            width="100%" height="250" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade">
+          </iframe>
+        </div>
+        <ul class="venue-list">
+          <li>
+            <strong>Cérémonie :</strong> 
+            Église catholique Saint-Martin à Grand-Couronne<br>
+            Rue Georges Clemenceau, 76530 Grand-Couronne<br>
+            <a href="https://maps.app.goo.gl/H1wmqGcpviZo166P9" target="_blank" rel="noopener" style="color:var(--vert-sauge);text-decoration:underline;">Voir sur Google Maps</a>
+          </li>
+          <li><strong>Réception :</strong> Château de la Forêt, Versailles</li>
+        </ul>
+      </div>
+      <div class="info-block">
+        <h3 data-i18n="infos_accommodation">Hébergement</h3>
+        <ul>
+          <li><a href="https://goo.gl/maps/4v6v6v6v6v6v6v6v6" target="_blank">Hôtel Le Relais des Deux Rivières<br><span style='font-size:0.95em;color:var(--gris-taupe);'>2 Rue de la Gare, 76530 Grand-Couronne</span></a></li>
+          <li><a href="https://goo.gl/maps/7y7y7y7y7y7y7y7y7" target="_blank">B&B Hôtel Rouen Parc des Expos<br><span style='font-size:0.95em;color:var(--gris-taupe);'>42 Avenue des Canadiens, 76120 Le Grand-Quevilly</span></a></li>
+          <li><a href="https://goo.gl/maps/8z8z8z8z8z8z8z8z8" target="_blank">Hôtel Campanile Rouen Sud<br><span style='font-size:0.95em;color:var(--gris-taupe);'>31 Rue Désiré Granet, 76800 Saint-Étienne-du-Rouvray</span></a></li>
+        </ul>
+      </div>
+      <div class="info-block">
+        <h3 data-i18n="infos_program">Programme</h3>
+        <ul>
+          <li>15h00 : Cérémonie</li>
+          <li>17h00 : Cocktail</li>
+          <li>19h30 : Dîner</li>
+          <li>22h00 : Soirée dansante</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+  <div class="section-separator floral"></div>
+
+  <!-- RSVP -->
+  <section id="rsvp" class="section rsvp-section">
+    <h2 data-i18n="rsvp_title">RSVP</h2>
+    <form id="rsvp-form" class="rsvp-form">
+      <input type="text" name="name" placeholder="Votre nom" required>
+      <input type="email" name="email" placeholder="Votre email" required>
+      <select name="attendance" required>
+        <option value="" disabled selected>Présence ?</option>
+        <option value="yes">Oui</option>
+        <option value="no">Non</option>
+      </select>
+      <select name="meal" required>
+        <option value="" disabled selected>Choix du plat</option>
+        <option value="meat">Viande</option>
+        <option value="fish">Poisson</option>
+        <option value="veggie">Végétarien</option>
+      </select>
+      <input type="text" name="diet" placeholder="Allergies ou restrictions ?">
+      <textarea name="message" placeholder="Un message pour les mariés ?"></textarea>
+      <button type="submit" data-i18n="rsvp_submit">Envoyer</button>
+    </form>
+    <div id="rsvp-confirmation" class="rsvp-confirmation"></div>
+  </section>
+  <div class="section-separator geo"></div>
+
+  <!-- Galerie -->
+  <section id="gallery" class="section gallery-section">
+    <h2 data-i18n="gallery_title">Galerie</h2>
+    <div class="gallery-filters" id="gallery-filters"></div>
+    <div class="gallery-masonry" id="gallery-masonry"></div>
+    <div id="lightbox" class="lightbox"></div>
+  </section>
+  <div class="section-separator floral"></div>
+
+  <!-- Liste de mariage -->
+  <section id="gifts" class="section gifts-section">
+    <h2 data-i18n="gifts_title">Liste de mariage</h2>
+    <div class="gifts-list" id="gifts-list"></div>
+  </section>
+  <div class="section-separator geo"></div>
+
+  <!-- Livre d'or -->
+  <section id="guestbook" class="section guestbook-section">
+    <h2 data-i18n="guestbook_title">Livre d'or</h2>
+    <form id="guestbook-form" class="guestbook-form">
+      <input type="text" name="guestname" placeholder="Votre nom" required>
+      <textarea name="guestmessage" placeholder="Votre message" required></textarea>
+      <input type="file" name="guestphoto" accept="image/*">
+      <button type="submit" data-i18n="guestbook_submit">Laisser un message</button>
+    </form>
+    <div class="guestbook-wall" id="guestbook-wall"></div>
+  </section>
+
+  <button id="back-to-top" class="back-to-top" aria-label="Retour en haut">↑</button>
+
+  <footer>
+    <p>&copy; 2025 Laeticia et Aurélien</p>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html> 

@@ -1,0 +1,38 @@
+[
+  {
+    "date": "2015",
+    "title": "Première rencontre",
+    "text": "Nous nous sommes rencontrés à la fac lors d'un atelier théâtre. Un vrai coup de foudre !",
+    "photo": "assets/images/fac.jpg"
+  },
+  {
+    "date": "2016",
+    "title": "Premier rendez-vous",
+    "text": "Un café au bord de la Seine, des rires et des regards complices. Le début d'une belle histoire.",
+    "photo": "assets/images/story2.jpg"
+  },
+  {
+    "date": "2018",
+    "title": "Premier voyage",
+    "text": "Un road trip inoubliable en Italie, entre rires, pizzas et couchers de soleil.",
+    "photo": "assets/images/voyage1.jpeg"
+  },
+  {
+    "date": "2019",
+    "title": "Notre premier appartement",
+    "text": "Nous avons emménagé ensemble dans un petit cocon rempli de souvenirs et de projets.",
+    "photo": "assets/images/appartement1.jpg"
+  },
+  {
+    "date": "2021",
+    "title": "L'arrivée de Nala",
+    "text": "Notre petite chienne Nala a rejoint la famille, apportant encore plus de bonheur à notre quotidien.",
+    "photo": "assets/images/nala1.jpg"
+  },
+  {
+    "date": "2023",
+    "title": "La demande en mariage",
+    "text": "Sur la plage, au coucher du soleil, entourés de nos proches. Un moment magique !",
+    "photo": "assets/images/story3.jpg"
+  }
+] 
